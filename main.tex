@@ -4,6 +4,7 @@
 \usepackage{rotating}
 \usepackage[russian]{babel}
 \usepackage{amsfonts} % Пакеты для математических символов и теорем
+\usepackage{tablefootnote}
 \usepackage{amstext}
 \usepackage{amssymb}
 \usepackage{amsthm}
@@ -11,8 +12,9 @@
 \usepackage{subfig}
 \usepackage[unicode]{hyperref}
 \usepackage[nottoc]{tocbibind} % Для того, чтобы список литературы отображался в оглавлении
-\usepackage{algorithmic} % Для записи алгоритмов в псевдокоде
 \usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{algorithmicx} % Для записи алгоритмов в псевдокоде
 \usepackage{verbatim} % Для вставок заранее подготовленного текста в режиме as-is
 \usepackage{listings}
 \usepackage{commath}
@@ -21,6 +23,8 @@
 \usepackage{color}
 \usepackage[colorinlistoftodos, prependcaption]{todonotes}
 \usepackage{multirow}
+\usepackage{textcomp}
+
 \newcommand*{\MyIndent}{\hspace*{0.2cm}}%
 
 \Chair{Кафедра системного программирования}
@@ -58,6 +62,7 @@
 \AbstractText{Аннотация}
 
 \begin{document}
+\floatname{algorithm}{Алгоритм}
 \fixmargins
 \makepreliminarypages
 
