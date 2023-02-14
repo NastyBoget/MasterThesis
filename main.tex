@@ -12,8 +12,6 @@
 \usepackage{subfig}
 \usepackage[unicode]{hyperref}
 \usepackage[nottoc]{tocbibind} % Для того, чтобы список литературы отображался в оглавлении
-\usepackage{algorithmic} % Для записи алгоритмов в псевдокоде
-\usepackage{algorithm}
 \usepackage{verbatim} % Для вставок заранее подготовленного текста в режиме as-is
 \usepackage{listings}
 
@@ -48,8 +46,19 @@
   \Consultant{Беляева Оксана Владимировна}
   \ConsultantDegree{}
   
-\Abstract{Краткое описание задачи и основных результатов, мотивирующее прочитать весь текст}
-\AbstractEng{Abstract}
+\Abstract{Задача автоматического распознавания рукописного текста является важной состаляющей в процессе анализа электронных документов.
+Несмотря на необходимость решения данной задачи на достаточно высоком уровне, ее решение все еще далеко от идеала.
+Одной из основных причин сложности распознавания рукописного текста является недостаточное количество данных, используемых для обучения моделей распознавания.
+При этом, если для английского языка существуют объемные и разнообразные наборы данных, то для русского языка проблема встает более остро и усугубляется большим разнообразием сложных почерков.
+В данной работе рассматривается решение задачи распознавания рукописного текста на русском языке с помощью модели, показывающей наилучшие результаты для английских текстов.
+Более того, предлагается способ расширения обучающего набора данных, который можно использовать для генерации рукописных текстов на любом языке.}
+
+\AbstractEng{Automatic handwriting recognition is an important component in the process of electronic documents analysis.
+Despite the need to solve this problem at a sufficiently high level, its solution is still far from ideal.
+One of the main reasons for the complexity of handwriting recognition is the insufficient amount of data used to train recognition models.
+At the same time, in comparison with the English language where data sets are voluminous and diverse, for the Russian language the problem is more acute and is exacerbated by a large variety of complex handwriting.
+This work describes the solution of the problem of handwriting recognition in Russian using a model that shows state of the art results for English texts.
+Moreover, a method is proposed for extending the training dataset, which can be used to generate handwritten texts in any language.}
 
 
 %%%% DON'T change this. It is here because .sty does not support cyrillic cp properly %%%%
