@@ -386,6 +386,9 @@
 
 
 \subsubsection{Анализ результатов}
+\label{subsubsec:experiments_results}
+
+\todo[inline]{Добавить информацию о лоссах}
 
 В таблицах~\ref{tab:attention_htr_results},~\ref{tab:attention_htr_results_hkr},~\ref{tab:transformer_htr_results} и~\ref{tab:transformer_htr_results_hkr}
 представлены результаты обучения нейронных сетей AttentionHTR и трансформера на наборах HKR и Cyrillic Handwriting Dataset
@@ -470,8 +473,8 @@
         \hline
         Без генерации    & 66.68 & 10.56 & 29.08 & 48.57 & 11.71 & 44.87 \\
         Шрифты           &       &       &       &       &       &       \\
-        Stackmix         &       &       &       &       &       &       \\
-        GAN              &       &       &       &       &       &       \\
+        Stackmix         &       &       &       & 59.00 & 8.35  & 37.27 \\
+        GAN              & 72.18 & 7.49  & 23.51 &       &       &       \\
         \hline
     \end{tabular}
     \caption{Результаты обучения нейронной сети трансформер}
@@ -490,7 +493,7 @@
         Без генерации    & 45.08 & 19.24 & 53.33 & 87.96 & 2.02  & 5.22  \\
         Шрифты           &       &       &       &       &       &       \\
         Stackmix         &       &       &       &       &       &       \\
-        GAN              &       &       &       &       &       &       \\
+        GAN              & 53.00 & 13.05 & 41.68 & 91.07 & 2.03  & 5.62  \\
         \hline
     \end{tabular}
     \caption{Детальные результаты обучения трансформера для набора HKR}
